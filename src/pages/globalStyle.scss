@@ -1,0 +1,87 @@
+@import "../assets/scss/mixin.scss";
+// @import "../assets/scss/theme.scss";
+//List tags
+.tagName {
+  .wrapName {
+    display: inline-block;
+    background: #eaedf3;
+    border-radius: 0 2px 2px 0;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 3px 7px;
+    position: relative;
+    color: #8492af;
+    text-transform: uppercase;
+    margin-top: 10px;
+    &:before {
+      content: "";
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      border-top: 11px solid $colorWhite !important;
+      border-left: 9px solid #eaedf3;
+      border-bottom: 12px solid $colorWhite !important;
+      border-right: 0;
+      height: 0;
+      position: absolute;
+      top: 0px;
+      right: -8px;
+      width: 0;
+      &:hover {
+        border-color: $colorBlue;
+      }
+    }
+    &:after {
+      content: "";
+      background-color: $colorWhite;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      height: 4px;
+      position: absolute;
+      top: 9px;
+      right: -2px;
+      width: 4px;
+    }
+    a {
+      cursor: pointer;
+      &:hover {
+        color: $colorBlue;
+      }
+    }
+  }
+}
+
+.tagName .wrapName:hover:before {
+  background: $colorBlue;
+}
+
+//autoComplete
+.suggesAuto {
+  background: $colorWhite;
+  border: 1px solid #e9e9e9;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99;
+  .suggtAutoItem {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+}
+
+.form-check-input {
+  margin-left: 0;
+}
+
+.border-row {
+  border: solid 1px #556ee6;
+}
+
+.page-content {
+  padding: 0;
+}

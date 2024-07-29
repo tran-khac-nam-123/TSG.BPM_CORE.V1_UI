@@ -1,0 +1,61 @@
+ /* @font-face {
+   font-family: 'MenuFont';
+   src:  url('./OpenSans-Regular.woff') format('woff');
+}*/
+
+/* .Menu {
+    color: #808080;
+    font-family: 'MenuFont';
+    list-style-type: square;
+}  */
+
+.Menu {
+  /* background-color: #352d2f; */
+  width: 100%;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 10px 0 rgba(0,0,0,.14), 0 1px 15px 0 rgba(0,0,0,.12);
+}
+div img {
+  height: 46px;
+  float: left;
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+  border-left:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ECEFF4;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li img {
+  height: 46px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

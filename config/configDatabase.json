@@ -1,0 +1,999 @@
+{
+  "WFTable": {
+    "ListName": "WFTable",
+    "ListField": [
+      {
+        "FieldName": "Code",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Description",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Status",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SLA",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "WhoIsUsed",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "WIU",
+        "FieldType": "UserMulti",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "WIUGroup",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "indexStep",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "AutoSave",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjParentProcess",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TemplateHtml",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "WFStepTable": {
+    "ListName": "WFStepTable",
+    "ListField": [
+      {
+        "FieldName": "Code",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "WFTableId",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjEmailCfg",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "StepWFType",
+        "FieldType": "Dropdown",
+        "spFieldType": "Choice",
+        "FieldObject": ["Phê duyệt", "Quy trình"],
+        "spFieldFormat": "Dropdown"
+      },
+      {
+        "FieldName": "ObjStepWFId",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjStepCondition",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SLA",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ClassifyStep",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "StepNextDefault",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "indexStep",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjFieldStep",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "btnAction",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "UserApprover",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "TypeofApprover",
+        "FieldType": "Dropdown",
+        "spFieldType": "Choice",
+        "FieldObject": ["Người phê duyệt", "Mã và vai trò phê duyệt"],
+        "spFieldFormat": "Dropdown"
+      },
+      {
+        "FieldName": "ApproveCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "RoleCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "GroupApprover",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjBackStep",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "IsEditApprover",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DepartmentCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ApproverInField",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ApproverInStep",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ApproverInSelect",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ApproveRunTime",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "WFFormField": {
+    "ListName": "WFFormField",
+    "ListField": [
+      {
+        "FieldName": "WFTableId",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "InternalName",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "FieldType",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "HelpText",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Required",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjValidation",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ObjSPField",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DefaultValue",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "OrderIndex",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TypeDefaultValue",
+        "FieldType": "Dropdown",
+        "spFieldType": "Choice",
+        "FieldObject": ["CurrentData", "InputValue", "UserApprovalInStep"],
+        "spFieldFormat": "Dropdown"
+      }
+    ]
+  },
+  "WFHistory": {
+    "ListName": "WFHistory",
+    "ListField": [
+      {
+        "FieldName": "WFTableId",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ItemIndex",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "indexStep",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "StatusStep",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DateRequest",
+        "FieldType": "DateTime",
+        "spFieldType": "DateTime",
+        "FieldObject": [],
+        "spFieldFormat": "DateOnly"
+      },
+      {
+        "FieldName": "UserCreated",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "UserRequest",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "UserApproval",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "ListUser",
+        "FieldType": "UserMulti",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "HistoryApprover",
+        "FieldType": "UserMulti",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "StatusRequest",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "HistoryStep",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "StateOfEmergency",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "WFComments": {
+    "ListName": "WFComments",
+    "ListField": [
+      {
+        "FieldName": "KeyList",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Chat_Comments",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "UserComment",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "AssignTo",
+        "FieldType": "UserMulti",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "UserPicture",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "indexStep",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "WFTemplateEmail": {
+    "ListName": "WFTemplateEmail",
+    "ListField": [
+      {
+        "FieldName": "SubjectEmail",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "BodyEmail",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "FieldReplateText",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TypeTemplate",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListRequestSendMail": {
+    "ListName": "ListRequestSendMail",
+    "ListField": [
+      {
+        "FieldName": "IndexItem",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Step",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "KeyList",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "KeyListStep",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SubjectMail",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "BodyMail",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SendMailTo",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TypeEmail",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListDepartment": {
+    "ListName": "ListDepartment",
+    "ListField": [
+      {
+        "FieldName": "DeptCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Manager",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "Members",
+        "FieldType": "UserMulti",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "ParentCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListRoleCode": {
+    "ListName": "ListRoleCode",
+    "ListField": [
+      {
+        "FieldName": "Code",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ParentCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DeptCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListApproveCode": {
+    "ListName": "ListApproveCode",
+    "ListField": [
+      {
+        "FieldName": "Code",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DeptCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ApproveCodeE5",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListMapEmployee": {
+    "ListName": "ListMapEmployee",
+    "ListField": [
+      {
+        "FieldName": "User",
+        "FieldType": "User",
+        "spFieldType": "User",
+        "FieldObject": [],
+        "spFieldFormat": "PeopleOnly"
+      },
+      {
+        "FieldName": "ApproveCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "RoleCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DeptCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "LeaderId",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Unit",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "IsDeptDefault",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Position",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ReceiveInform",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListPermissonByRole": {
+    "ListName": "ListPermissonByRole",
+    "ListField": [
+      {
+        "FieldName": "RoleCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "PriorityPoint",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Save",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Submit",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Approve",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ReAssigment",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "MoveTo",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Reject",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "View",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "InformTo",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "OverWrite",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "WFTableCode",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListMenu": {
+    "ListName": "ListMenu",
+    "ListField": [
+      {
+        "FieldName": "Code",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "LinkMenu",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "IconName",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "OrderNumber",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ParentCode",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "ClassName",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TargetBlank",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "IsApplication",
+        "FieldType": "YesNo",
+        "spFieldType": "Boolean",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "WFTableCode",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "ListSendMailDealine": {
+    "ListName": "ListSendMailDealine",
+    "ListField": [
+      {
+        "FieldName": "IndexItem",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "Step",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "KeyList",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "IsFinish",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "DateDealine",
+        "FieldType": "DateTime",
+        "spFieldType": "DateTime",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SubjectMail",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "BodyMail",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "SendMailTo",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TypeEmail",
+        "FieldType": "Text",
+        "spFieldType": "Text",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "WorkingWeekendHoliday": {
+    "ListName": "WorkingWeekendHoliday",
+    "ListField": [
+      {
+        "FieldName": "DayOffType",
+        "FieldType": "Dropdown",
+        "spFieldType": "Choice",
+        "FieldObject": ["Holidays", "Weekends", "WeekendSunday", "WorkingTime"],
+        "spFieldFormat": "Dropdown"
+      },
+      {
+        "FieldName": "Holidays",
+        "FieldType": "DateTime",
+        "spFieldType": "DateTime",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TimeStart",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "TimeEnd",
+        "FieldType": "Number",
+        "spFieldType": "Number",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  },
+  "TemplateHtmlExport": {
+    "ListName": "TemplateHtmlExport",
+    "ListField": [
+      {
+        "FieldName": "BodyHtml",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      },
+      {
+        "FieldName": "FieldReplaceText",
+        "FieldType": "TextArea",
+        "spFieldType": "Note",
+        "FieldObject": [],
+        "spFieldFormat": ""
+      }
+    ]
+  }
+}

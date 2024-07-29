@@ -1,0 +1,5 @@
+node_modules
+build
+.lock.json
+config/private.json
+config/*.json.bak

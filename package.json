@@ -1,0 +1,90 @@
+{
+  "name": "multi-page-app-with-react",
+  "version": "1.0.0",
+  "description": "Multi Page Application with React",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .jsx,.js src",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --hot --open --port 3100",
+    "spProxy": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przemek-nowicki/multi-page-app-with-react.git"
+  },
+  "keywords": [
+    "react mpa",
+    "webpack4 multi-pages",
+    "react multi-page-app",
+    "react multi page application"
+  ],
+  "author": "Przemek Nowicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/przemek-nowicki/multi-page-app-with-react/issues"
+  },
+  "homepage": "https://github.com/przemek-nowicki/multi-page-app-with-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.0.0",
+    "array-move": "^1.0.0",
+    "babel-loader": "^8.0.6",
+    "classnames": "^2.2.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@fullcalendar/bootstrap": "^4.3.0",
+    "@mrblenny/react-flow-chart": "0.0.13",
+    "@pnp/pnpjs": "^2.0.3",
+    "bootstrap": "^4.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "font-awesome": "^4.7.0",
+    "invariant": "^2.2.4",
+    "jquery": "^3.5.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.5.7",
+    "react": "^16.9.0",
+    "react-bootstrap-editable": "^0.6.1",
+    "react-bootstrap-sweetalert": "^5.1.9",
+    "react-bootstrap-table-next": "^4.0.0",
+    "react-bootstrap-table2-editor": "^1.4.0",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.2",
+    "react-dom": "^16.9.0",
+    "react-flow-renderer": "^9.7.3",
+    "react-organizational-chart": "^2.2.1",
+    "react-super-responsive-table": "^5.1.1",
+    "reactstrap": "^8.5.1",
+    "sp-rest-proxy": "^2.10.3",
+    "styled-components": "^5.1.0",
+    "url-loader": "^4.1.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.7",
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
+  }
+}
